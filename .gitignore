@@ -1,4 +1,4 @@
 test.md
 dist/
 node_modules/
-./gitignore .DS_Store/
+.DS_Store/
