@@ -45,6 +45,9 @@
 ### Key Features <a name="key-features">
 
 - show a list those saved in the array
+- Add new todo list
+- Delete todo list
+- Edit todo list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
