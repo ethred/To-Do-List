@@ -13,11 +13,9 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
   - [🛠 Tech Stack](#tech-stack)
-
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,7 +31,7 @@
 
 **Todolist** The To Do List is a web application that lists everything that a person has to do.in order to check his/her plane
 
-## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript ES6</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -46,9 +44,10 @@
 
 ### Key Features <a name="key-features">
 
-## -show a list those saved in the array
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- show a list those saved in the array
+- Add new todo list
+- Delete todo list
+- Edit todo list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,8 +81,6 @@ Example commands:
 
 ```
 
---->
-
 ### Install
 
 Must-Install-Project-with-the-Following-Programmes:
@@ -100,7 +97,7 @@ Must-Install-Project-with-the-Following-Programmes:
 
 - GitHub: [@ethred](https://github.com/ethred)
 - Twitter: [@redwanthr](https://twitter.com/@redwanthr)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Redwan Tahir/)
+- LinkedIn: [Redwan Tahir](https://www.linkedin.com/in/redwan-tahir-78260733/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

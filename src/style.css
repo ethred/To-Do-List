@@ -1,0 +1,112 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css);
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  background: rgb(236, 236, 236);
+}
+
+.container {
+  background: #fff;
+  width: 400px;
+  height: auto;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 10px;
+}
+
+header .header h1 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+hr {
+  margin: 0;
+  color: rgb(218, 219, 219);
+}
+
+.new-todo {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 10px;
+}
+
+form input {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+  border: 0;
+}
+
+#todos-list .todo {
+  display: flex;
+  align-items: center;
+
+  /* justify-content: first baseline; */
+  gap: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+#todos-list .todo p {
+  width: 82%;
+  display: flex;
+  background: red;
+}
+
+#todos-list .todo input {
+  display: flex;
+  width: 82%;
+  height: 45px;
+  border: none;
+}
+
+.bi.bi-three-dots-vertical {
+  justify-self: end;
+}
+
+button {
+  background: #fff;
+  border: none;
+}
+
+.remove {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px 0;
+  color: #e4e4e4;
+  background: rgb(250, 248, 248);
+  border: none;
+}
+
+.bi-trash3 {
+  margin-right: 35px;
+  display: flex;
+  transition: 10ms;
+}
+
+.edit {
+  background: #dee0ae;
+  border: none;
+}
+
+.editable {
+  background: #dee0ae;
+}
+
+.read {
+  pointer-events: none;
+  border: none;
+}
