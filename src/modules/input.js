@@ -76,5 +76,14 @@ class functio {
           edit: index === todoId ? !todo.edit : todo.edit,
         }));
       }
+      todos = () =>{
+        return todos;
+      }
+
+      setodos=(tods) => {
+        todos = tods;
+        saveToLocalStorage();
+        console.log(todos);
+      }
 }
 export default functio;

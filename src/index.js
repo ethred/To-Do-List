@@ -1,10 +1,12 @@
 import './style.css';
 
 import Functio from './modules/input.js';
+import Checked from './modules/checked.js';
 
 const form = document.getElementById('todoform');
 const todoInput = document.getElementById('newtodo');
 const todosListEl = document.getElementById('todos-list');
+const removeBtnEl=document.getElementById('remove');
 const todo = new Functio();
 const checkTodo = (todoId) => {
   let { todos } = this;
@@ -25,9 +27,10 @@ todosListEl.addEventListener('click', (event) => {
   const todoId = Number(todo.id);
   const { action } = target.dataset;
   const change = new Functio();
-
-  if (action === 'check') {
-    checkTodo(todoId);
+  const toBeChecked = new Checked();
+  if(action === 'check') {
+    toBeChecked.checkTodo(todoId);
+    change.renderTodos(todosListEl);
   } else if (action === 'edit') {
     change.editTodo(todoId, todosListEl);
     change.renderTodos(todosListEl);
@@ -58,4 +61,9 @@ todosListEl.addEventListener('keydown', (event) => {
     TobeUpdate.renderTodos(todosListEl);
   }
 });
-todo.renderTodos(todosListEl);
+
+removeBtnEl.addEventListener('click', (Event) => {
+  Event.preventDefault();
+   const toBeDelete = new Checked();
+   toBeDelete.toDelete();
+});
